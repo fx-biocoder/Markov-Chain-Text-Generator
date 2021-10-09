@@ -1,7 +1,6 @@
 # Generador de texto mediante Cadenas de Markov
 
-Este script facilita la generación automática de cadenas de texto de longitud variable, a partir de un archivo fuente con el cual se genera una cadena de Markov.
-Para este proyecto he tomado como base el script del sitio personal de [Jeffrey Carpenter](https://www.linkedin.com/in/jeffcarp/), y realicé modificaciones varias.
+Este script facilita la generación automática de cadenas de texto de longitud variable, a partir de un archivo fuente con el cual se genera una cadena de Markov. Para este proyecto he tomado como base el script del sitio personal de [Jeffrey Carpenter](https://www.linkedin.com/in/jeffcarp/), y realicé modificaciones varias.
 
 ### Highlights:
 1. Uso de la librería `easygui` para seleccionar el archivo fuente de manera manual
