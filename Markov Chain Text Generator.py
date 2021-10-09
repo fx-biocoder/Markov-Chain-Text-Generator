@@ -66,7 +66,7 @@ def lista(grafo, distancia, nodo_de_inicio = None):
 dist = input("Inserte valor de distancia: ")
 rango = input("Inserte valor de rango: ")
 
-if(re.search("[0-9]", dist) and re.search("[0-9]", rango)):
+if(re.search("[0-9]+", dist) and re.search("[0-9]+", rango)):
     dist = int(dist)
     rango = int(rango)   
     [print(' '.join(lista(markov, distancia = dist))) for i in range(rango)]
